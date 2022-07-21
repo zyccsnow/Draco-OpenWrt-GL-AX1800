@@ -29,10 +29,14 @@ feeds:
     uri: https://github.com/kenzok8/small.git
     branch: master
     revision: ba0e907af63c5f7dff8a0a513076915a15b75b5f
+  - name: helloworld
+    uri: https://github.com/fw876/helloworld.git
+    branch: master
 include:
   - wifi-ax
 packages:
   - wget-ssl
+  - luci-app-ssr-plus
   - luci-theme-argon
   - luci-app-argon-config
   - luci-app-ramfree
